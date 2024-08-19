@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Catalogue</title>
+</head>
+<body>
+	<!--<img src="/../static/images/a0622182274_10.jpg">
+	<img src="../static/images/a0622182274_10.jpg">
+	<img src="/static/images/a0622182274_10.jpg">
+	<img src="/images/a0622182274_10.jpg">
+	<img src="images/a0622182274_10.jpg">
+	<img src="./images/a0622182274_10.jpg">
+	<img src="../static/a0622182274_10.jpg">
+    <img src="../static/a0274520166_10.jpg" alt="">
+	<img src="/images/a0622182274_10.jpg">-->
+
+    <h1>Album Catalogue</h1>
+    <p>Welcome, on this website I share some of my favorite Ambient and Dreampunk Albums.</p>
+
+    <li th:each="a : ${albums}">
+        <p th:text="${a.title}"></p>
+        <p th:text="${a.artist}"></p>
+        <p th:text="${a.genre}"></p>
+        <p th:text="${a.year}"></p>
+        <img th:src="@{${a.albumCover}}" alt="test">  <!--${a.albumCover}-->
+		<p th:text="${a.albumCover}"></p>
+		<p th:text="${a.source}"></p>
+        <br>
+		
+    </li>
+</body>
+</html>
