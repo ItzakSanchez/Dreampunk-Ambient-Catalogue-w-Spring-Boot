@@ -1,0 +1,46 @@
+body{
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+	background-color: black;
+}
+
+.card{
+	max-width: 260px;
+	background-color: #1d1c1c;
+}
+
+.card-body{
+	background-color: #1d1c1c;
+}
+
+.card-img-top{
+	height: 258px;
+}
+
+h1{
+	font-size: 60px;
+}
+
+.card-text-container{
+	height: 200px;
+	/* height: 60px; */
+}
+
+.btn{
+	background-color: #1d1c1c;
+	border-color: white;
+	color:white;
+}
+
+.btn:hover{
+	background-color:white;
+	color: #1d1c1c;
+	border-color: white;
+}
+
+footer{
+	background-color: #1d1c1c;
+	color:white;
+	text-align: center;
+	padding: 10px;
+}
