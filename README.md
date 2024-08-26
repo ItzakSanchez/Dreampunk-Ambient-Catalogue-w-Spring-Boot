@@ -13,7 +13,7 @@ The main purpose of this project is learning. You are free to explore the code a
   -Execute DreampunkAmbientCatalogue.java (main method)</br>
   -Enter to localhost:8080/home (http port)
 
-Here is a screenshot of the webpage:
+Here is a screenshot of the webpage:</br>
 ![25-8-2024_211714_localhost](https://github.com/user-attachments/assets/61961dbe-adc8-43d2-8ed1-d1242d1dd7b9)
 
 ## Contact
